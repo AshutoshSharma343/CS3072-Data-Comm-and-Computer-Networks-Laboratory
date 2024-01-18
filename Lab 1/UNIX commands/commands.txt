@@ -1,4 +1,7 @@
-arp--. the arp command is used to view and manipulate the ARP cache, which is a table that maps IP addresses to corresponding physical(MAC)addresses on a local network
+Commands-->
+
+1) arp--. the arp command is used to view and manipulate the ARP cache,
+which is a table that maps IP addresses to corresponding physical(MAC)addresses on a local network
 
 nitr@nitr-HP-Compaq-Elite-8300-SFF:~/Downloads$ arp
 Address                  HWtype  HWaddress           Flags Mask            Iface
@@ -31,4 +34,11 @@ From the output you provided:
 
     169.254.169.254: This entry is marked as "incomplete," indicating that the ARP resolution for this IP address is incomplete on the network interface eno1.
 
-    host,ifconfig,netstart,ip.ping,route
+    host,ifconfig,netstart,ip,ping,route
+
+2) ping-->
+The ping command is used to test the reachability of a host on a network
+ by sending ICMP echo request packets and waiting for corresponding replies. 
+ For example: ping www.google.com
+
+ 
